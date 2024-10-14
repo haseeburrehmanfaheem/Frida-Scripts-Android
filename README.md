@@ -1,4 +1,4 @@
-#Frida Scripts Android Repository
+# Frida Scripts Android Repository
 
 This repository focuses on WeChat exploration but extends to hooking manager APIs, service APIs, file read/write operations, and content resolver APIs. Below is a breakdown of the different directories and scripts in the repository.
 
