@@ -1,0 +1,3629 @@
+{
+  "_naSwan": {
+    "type": "object",
+    "isFunction": false,
+    "isObject": true,
+    "properties": {
+      "env": { "type": "object", "isFunction": false, "isObject": true },
+      "console": { "type": "object", "isFunction": false, "isObject": true },
+      "userAgent": { "type": "string", "isFunction": false, "isObject": false },
+      "setTimeout": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "clearTimeout": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "setInterval": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "clearInterval": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "Canvas": { "type": "function", "isFunction": true, "isObject": false },
+      "Image": { "type": "function", "isFunction": true, "isObject": false },
+      "CanvasRenderingContext2D": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "WebGLRenderingContext": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "XRSession": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "DuXRSessionFaceMode": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "include": { "type": "function", "isFunction": true, "isObject": false },
+      "triggerGC": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "getMethodsList": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "createWorker": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "bindId": { "type": "function", "isFunction": true, "isObject": false },
+      "setData": { "type": "function", "isFunction": true, "isObject": false },
+      "unbind": { "type": "function", "isFunction": true, "isObject": false },
+      "performanceNow": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "getPerformance": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "loadFont": { "type": "function", "isFunction": true, "isObject": false },
+      "getTextLineHeight": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "requestXRSession": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "supportsXRSession": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "requestAnimationFrame": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "cancelAnimationFrame": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "addEventListener": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "dispatchEvent": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "getAPIs": { "type": "function", "isFunction": true, "isObject": false },
+      "getDevToolsResponse": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "getEnvVariables": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "getFileSystemManager": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "getNACanIUseMap": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "lockMaster": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "removeEventListener": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "setDevToolsResponse": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "V8Transport": {
+        "type": "object",
+        "isFunction": false,
+        "isObject": true
+      },
+      "Bdbox_aiapps_jsbridge": {
+        "type": "object",
+        "isFunction": false,
+        "isObject": true
+      },
+      "Bdbox_android_jsbridge": {
+        "type": "object",
+        "isFunction": false,
+        "isObject": true
+      },
+      "Bdbox_android_utils": {
+        "type": "object",
+        "isFunction": false,
+        "isObject": true
+      },
+      "_naAccessibility": {
+        "type": "object",
+        "isFunction": false,
+        "isObject": true
+      },
+      "_naAccount": { "type": "object", "isFunction": false, "isObject": true },
+      "_naBaijiahao": {
+        "type": "object",
+        "isFunction": false,
+        "isObject": true
+      },
+      "_naBasic": { "type": "object", "isFunction": false, "isObject": true },
+      "_naBenchmark": {
+        "type": "object",
+        "isFunction": false,
+        "isObject": true
+      },
+      "_naBookshelf": {
+        "type": "object",
+        "isFunction": false,
+        "isObject": true
+      },
+      "_naCalendar": {
+        "type": "object",
+        "isFunction": false,
+        "isObject": true
+      },
+      "_naCanvas": { "type": "object", "isFunction": false, "isObject": true },
+      "_naCoupon": { "type": "object", "isFunction": false, "isObject": true },
+      "_naCustomAd": {
+        "type": "object",
+        "isFunction": false,
+        "isObject": true
+      },
+      "_naExpandArticle": {
+        "type": "object",
+        "isFunction": false,
+        "isObject": true
+      },
+      "_naExtensionPrivateBusiness": {
+        "type": "object",
+        "isFunction": false,
+        "isObject": true
+      },
+      "_naExtensionPrivateNetDisk": {
+        "type": "object",
+        "isFunction": false,
+        "isObject": true
+      },
+      "_naFavor": { "type": "object", "isFunction": false, "isObject": true },
+      "_naFavorite": {
+        "type": "object",
+        "isFunction": false,
+        "isObject": true
+      },
+      "_naFile": { "type": "object", "isFunction": false, "isObject": true },
+      "_naFileSystem": {
+        "type": "object",
+        "isFunction": false,
+        "isObject": true
+      },
+      "_naGameCenter": {
+        "type": "object",
+        "isFunction": false,
+        "isObject": true
+      },
+      "_naHistory": { "type": "object", "isFunction": false, "isObject": true },
+      "_naHostDownloadManager": {
+        "type": "object",
+        "isFunction": false,
+        "isObject": true
+      },
+      "_naImage": { "type": "object", "isFunction": false, "isObject": true },
+      "_naInteraction": {
+        "type": "object",
+        "isFunction": false,
+        "isObject": true
+      },
+      "_naKeyboard": {
+        "type": "object",
+        "isFunction": false,
+        "isObject": true
+      },
+      "_naLLM": { "type": "object", "isFunction": false, "isObject": true },
+      "_naLingjing": {
+        "type": "object",
+        "isFunction": false,
+        "isObject": true
+      },
+      "_naLocationService": {
+        "type": "object",
+        "isFunction": false,
+        "isObject": true
+      },
+      "_naMenu": { "type": "object", "isFunction": false, "isObject": true },
+      "_naNetwork": { "type": "object", "isFunction": false, "isObject": true },
+      "_naNewInlineWidget": {
+        "type": "object",
+        "isFunction": false,
+        "isObject": true
+      },
+      "_naPayment": { "type": "object", "isFunction": false, "isObject": true },
+      "_naPlugin": { "type": "object", "isFunction": false, "isObject": true },
+      "_naPrefetch": {
+        "type": "object",
+        "isFunction": false,
+        "isObject": true
+      },
+      "_naPreload": { "type": "object", "isFunction": false, "isObject": true },
+      "_naPrivateAccount": {
+        "type": "object",
+        "isFunction": false,
+        "isObject": true
+      },
+      "_naPrivateBusiness": {
+        "type": "object",
+        "isFunction": false,
+        "isObject": true
+      },
+      "_naPrivateFile": {
+        "type": "object",
+        "isFunction": false,
+        "isObject": true
+      },
+      "_naPrivateMessage": {
+        "type": "object",
+        "isFunction": false,
+        "isObject": true
+      },
+      "_naPrivateTTS": {
+        "type": "object",
+        "isFunction": false,
+        "isObject": true
+      },
+      "_naPrivateUtils": {
+        "type": "object",
+        "isFunction": false,
+        "isObject": true
+      },
+      "_naRouter": { "type": "object", "isFunction": false, "isObject": true },
+      "_naSetting": { "type": "object", "isFunction": false, "isObject": true },
+      "_naStatisticEvent": {
+        "type": "object",
+        "isFunction": false,
+        "isObject": true
+      },
+      "_naStorage": { "type": "object", "isFunction": false, "isObject": true },
+      "_naSubscription": {
+        "type": "object",
+        "isFunction": false,
+        "isObject": true
+      },
+      "_naSystem": { "type": "object", "isFunction": false, "isObject": true },
+      "_naTopping": { "type": "object", "isFunction": false, "isObject": true },
+      "_naUtils": { "type": "object", "isFunction": false, "isObject": true },
+      "_naV8Network": {
+        "type": "object",
+        "isFunction": false,
+        "isObject": true
+      },
+      "_naWidget": { "type": "object", "isFunction": false, "isObject": true },
+      "_naWifi": { "type": "object", "isFunction": false, "isObject": true },
+      "jBenchmark": { "type": "object", "isFunction": false, "isObject": true },
+      "swanPreload": {
+        "type": "object",
+        "isFunction": false,
+        "isObject": true
+      },
+      "atob": { "type": "function", "isFunction": true, "isObject": false },
+      "btoa": { "type": "function", "isFunction": true, "isObject": false }
+    }
+  },
+  "__core-js_shared__": {
+    "type": "object",
+    "isFunction": false,
+    "isObject": true,
+    "properties": {
+      "versions": { "type": "object", "isFunction": false, "isObject": true },
+      "native-function-to-string": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "wks": { "type": "object", "isFunction": false, "isObject": true },
+      "keys": { "type": "object", "isFunction": false, "isObject": true },
+      "symbol-registry": {
+        "type": "object",
+        "isFunction": false,
+        "isObject": true
+      },
+      "symbols": { "type": "object", "isFunction": false, "isObject": true },
+      "op-symbols": { "type": "object", "isFunction": false, "isObject": true }
+    }
+  },
+  "core": {
+    "type": "object",
+    "isFunction": false,
+    "isObject": true,
+    "properties": {
+      "version": { "type": "string", "isFunction": false, "isObject": false },
+      "inspectSource": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "Array": { "type": "object", "isFunction": false, "isObject": true },
+      "getIteratorMethod": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "Object": { "type": "object", "isFunction": false, "isObject": true },
+      "Math": { "type": "object", "isFunction": false, "isObject": true },
+      "String": { "type": "object", "isFunction": false, "isObject": true },
+      "prototype": { "type": "object", "isFunction": false, "isObject": true },
+      "JSON": { "type": "object", "isFunction": false, "isObject": true },
+      "Reflect": { "type": "object", "isFunction": false, "isObject": true }
+    }
+  },
+  "values": {
+    "type": "function",
+    "isFunction": true,
+    "isObject": false,
+    "properties": {}
+  },
+  "keys": {
+    "type": "function",
+    "isFunction": true,
+    "isObject": false,
+    "properties": {}
+  },
+  "entries": {
+    "type": "function",
+    "isFunction": true,
+    "isObject": false,
+    "properties": {}
+  },
+  "atob": {
+    "type": "function",
+    "isFunction": true,
+    "isObject": false,
+    "properties": {}
+  },
+  "btoa": {
+    "type": "function",
+    "isFunction": true,
+    "isObject": false,
+    "properties": {}
+  },
+  "setTimeout": {
+    "type": "function",
+    "isFunction": true,
+    "isObject": false,
+    "properties": {}
+  },
+  "setInterval": {
+    "type": "function",
+    "isFunction": true,
+    "isObject": false,
+    "properties": {}
+  },
+  "clearTimeout": {
+    "type": "function",
+    "isFunction": true,
+    "isObject": false,
+    "properties": {}
+  },
+  "clearInterval": {
+    "type": "function",
+    "isFunction": true,
+    "isObject": false,
+    "properties": {}
+  },
+  "requestAnimationFrame": {
+    "type": "function",
+    "isFunction": true,
+    "isObject": false,
+    "properties": {}
+  },
+  "cancelAnimationFrame": {
+    "type": "function",
+    "isFunction": true,
+    "isObject": false,
+    "properties": {}
+  },
+  "window": {
+    "type": "object",
+    "isFunction": false,
+    "isObject": true,
+    "properties": {
+      "_naSwan": { "type": "object", "isFunction": false, "isObject": true },
+      "__core-js_shared__": {
+        "type": "object",
+        "isFunction": false,
+        "isObject": true
+      },
+      "core": { "type": "object", "isFunction": false, "isObject": true },
+      "values": { "type": "function", "isFunction": true, "isObject": false },
+      "keys": { "type": "function", "isFunction": true, "isObject": false },
+      "entries": { "type": "function", "isFunction": true, "isObject": false },
+      "atob": { "type": "function", "isFunction": true, "isObject": false },
+      "btoa": { "type": "function", "isFunction": true, "isObject": false },
+      "setTimeout": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "setInterval": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "clearTimeout": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "clearInterval": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "requestAnimationFrame": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "cancelAnimationFrame": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "window": { "type": "object", "isFunction": false, "isObject": true },
+      "global": { "type": "object", "isFunction": false, "isObject": true },
+      "swanGlobal": { "type": "object", "isFunction": false, "isObject": true },
+      "navigator": { "type": "object", "isFunction": false, "isObject": true },
+      "addEventListener": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "isMaster": { "type": "boolean", "isFunction": false, "isObject": false },
+      "_envVariables": {
+        "type": "object",
+        "isFunction": false,
+        "isObject": true
+      },
+      "basePath": { "type": "string", "isFunction": false, "isObject": false },
+      "swanVersion": {
+        "type": "string",
+        "isFunction": false,
+        "isObject": false
+      },
+      "Image": { "type": "function", "isFunction": true, "isObject": false },
+      "_bdbox_js_xxxx": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "_swanApp": { "type": "object", "isFunction": false, "isObject": true },
+      "__DEV__": { "type": "boolean", "isFunction": false, "isObject": false },
+      "feMasterPreloadStart": {
+        "type": "number",
+        "isFunction": false,
+        "isObject": false
+      },
+      "PrimitiveLogger": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "setUploader": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "specialWebpackJsonp": {
+        "type": "object",
+        "isFunction": false,
+        "isObject": true
+      },
+      "regeneratorRuntime": {
+        "type": "object",
+        "isFunction": false,
+        "isObject": true
+      },
+      "jsNative": { "type": "object", "isFunction": false, "isObject": true },
+      "setImmediate": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "clearImmediate": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "__hacked": { "type": "object", "isFunction": false, "isObject": true },
+      "__jsna_1": { "type": "function", "isFunction": true, "isObject": false },
+      "swan": { "type": "object", "isFunction": false, "isObject": true },
+      "swaninterface": {
+        "type": "object",
+        "isFunction": false,
+        "isObject": true
+      },
+      "swanEvents": { "type": "object", "isFunction": false, "isObject": true },
+      "def": { "type": "function", "isFunction": true, "isObject": false },
+      "define": { "type": "function", "isFunction": true, "isObject": false },
+      "require": { "type": "function", "isFunction": true, "isObject": false },
+      "defineDynamicLib": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "requireDynamicLib": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "definePlugin": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "requirePlugin": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "_openSourceDebugInfo": {
+        "type": "object",
+        "isFunction": false,
+        "isObject": true
+      },
+      "feMasterPreloadEnd": {
+        "type": "number",
+        "isFunction": false,
+        "isObject": false
+      },
+      "_logicKeyStageLog": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "appConfig": { "type": "string", "isFunction": false, "isObject": false },
+      "parsedAppConfig": {
+        "type": "object",
+        "isFunction": false,
+        "isObject": true
+      },
+      "onunhandledrejection": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "App": { "type": "function", "isFunction": true, "isObject": false },
+      "getApp": { "type": "function", "isFunction": true, "isObject": false },
+      "registerOnPrefetch": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "Page": { "type": "function", "isFunction": true, "isObject": false },
+      "Component": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "Behavior": { "type": "function", "isFunction": true, "isObject": false },
+      "masterManager": {
+        "type": "object",
+        "isFunction": false,
+        "isObject": true
+      },
+      "getCurrentPages": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "__swanRoute": {
+        "type": "undefined",
+        "isFunction": false,
+        "isObject": false
+      },
+      "usingComponents": {
+        "type": "object",
+        "isFunction": false,
+        "isObject": true
+      },
+      "usingPluginComponents": {
+        "type": "object",
+        "isFunction": false,
+        "isObject": true
+      },
+      "__alias": { "type": "object", "isFunction": false, "isObject": true },
+      "_bdbox_pjs_126": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "showPerformancePanel": {
+        "type": "string",
+        "isFunction": false,
+        "isObject": false
+      },
+      "_bdbox_pjs_137": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "_bdbox_pjs_140": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "_bdbox_pjs_169": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "_bdbox_pjs_194": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "_bdbox_pjs_226": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "__jsna_183": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "_bdbox_pjs_247": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "_bdbox_pjs_314": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      }
+    }
+  },
+  "global": {
+    "type": "object",
+    "isFunction": false,
+    "isObject": true,
+    "properties": {}
+  },
+  "swanGlobal": {
+    "type": "object",
+    "isFunction": false,
+    "isObject": true,
+    "properties": {
+      "_naSwan": { "type": "object", "isFunction": false, "isObject": true },
+      "__core-js_shared__": {
+        "type": "object",
+        "isFunction": false,
+        "isObject": true
+      },
+      "core": { "type": "object", "isFunction": false, "isObject": true },
+      "values": { "type": "function", "isFunction": true, "isObject": false },
+      "keys": { "type": "function", "isFunction": true, "isObject": false },
+      "entries": { "type": "function", "isFunction": true, "isObject": false },
+      "atob": { "type": "function", "isFunction": true, "isObject": false },
+      "btoa": { "type": "function", "isFunction": true, "isObject": false },
+      "setTimeout": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "setInterval": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "clearTimeout": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "clearInterval": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "requestAnimationFrame": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "cancelAnimationFrame": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "window": { "type": "object", "isFunction": false, "isObject": true },
+      "global": { "type": "object", "isFunction": false, "isObject": true },
+      "swanGlobal": { "type": "object", "isFunction": false, "isObject": true },
+      "navigator": { "type": "object", "isFunction": false, "isObject": true },
+      "addEventListener": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "isMaster": { "type": "boolean", "isFunction": false, "isObject": false },
+      "_envVariables": {
+        "type": "object",
+        "isFunction": false,
+        "isObject": true
+      },
+      "basePath": { "type": "string", "isFunction": false, "isObject": false },
+      "swanVersion": {
+        "type": "string",
+        "isFunction": false,
+        "isObject": false
+      },
+      "Image": { "type": "function", "isFunction": true, "isObject": false },
+      "_bdbox_js_xxxx": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "_swanApp": { "type": "object", "isFunction": false, "isObject": true },
+      "__DEV__": { "type": "boolean", "isFunction": false, "isObject": false },
+      "feMasterPreloadStart": {
+        "type": "number",
+        "isFunction": false,
+        "isObject": false
+      },
+      "PrimitiveLogger": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "setUploader": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "specialWebpackJsonp": {
+        "type": "object",
+        "isFunction": false,
+        "isObject": true
+      },
+      "regeneratorRuntime": {
+        "type": "object",
+        "isFunction": false,
+        "isObject": true
+      },
+      "jsNative": { "type": "object", "isFunction": false, "isObject": true },
+      "setImmediate": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "clearImmediate": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "__hacked": { "type": "object", "isFunction": false, "isObject": true },
+      "__jsna_1": { "type": "function", "isFunction": true, "isObject": false },
+      "swan": { "type": "object", "isFunction": false, "isObject": true },
+      "swaninterface": {
+        "type": "object",
+        "isFunction": false,
+        "isObject": true
+      },
+      "swanEvents": { "type": "object", "isFunction": false, "isObject": true },
+      "def": { "type": "function", "isFunction": true, "isObject": false },
+      "define": { "type": "function", "isFunction": true, "isObject": false },
+      "require": { "type": "function", "isFunction": true, "isObject": false },
+      "defineDynamicLib": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "requireDynamicLib": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "definePlugin": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "requirePlugin": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "_openSourceDebugInfo": {
+        "type": "object",
+        "isFunction": false,
+        "isObject": true
+      },
+      "feMasterPreloadEnd": {
+        "type": "number",
+        "isFunction": false,
+        "isObject": false
+      },
+      "_logicKeyStageLog": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "appConfig": { "type": "string", "isFunction": false, "isObject": false },
+      "parsedAppConfig": {
+        "type": "object",
+        "isFunction": false,
+        "isObject": true
+      },
+      "onunhandledrejection": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "App": { "type": "function", "isFunction": true, "isObject": false },
+      "getApp": { "type": "function", "isFunction": true, "isObject": false },
+      "registerOnPrefetch": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "Page": { "type": "function", "isFunction": true, "isObject": false },
+      "Component": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "Behavior": { "type": "function", "isFunction": true, "isObject": false },
+      "masterManager": {
+        "type": "object",
+        "isFunction": false,
+        "isObject": true
+      },
+      "getCurrentPages": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "__swanRoute": {
+        "type": "undefined",
+        "isFunction": false,
+        "isObject": false
+      },
+      "usingComponents": {
+        "type": "object",
+        "isFunction": false,
+        "isObject": true
+      },
+      "usingPluginComponents": {
+        "type": "object",
+        "isFunction": false,
+        "isObject": true
+      },
+      "__alias": { "type": "object", "isFunction": false, "isObject": true },
+      "_bdbox_pjs_126": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "showPerformancePanel": {
+        "type": "string",
+        "isFunction": false,
+        "isObject": false
+      },
+      "_bdbox_pjs_137": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "_bdbox_pjs_140": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "_bdbox_pjs_169": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "_bdbox_pjs_194": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "_bdbox_pjs_226": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "__jsna_183": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "_bdbox_pjs_247": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "_bdbox_pjs_314": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      }
+    }
+  },
+  "navigator": {
+    "type": "object",
+    "isFunction": false,
+    "isObject": true,
+    "properties": {
+      "userAgent": { "type": "string", "isFunction": false, "isObject": false }
+    }
+  },
+  "addEventListener": {
+    "type": "function",
+    "isFunction": true,
+    "isObject": false,
+    "properties": {}
+  },
+  "isMaster": {
+    "type": "boolean",
+    "isFunction": false,
+    "isObject": false,
+    "properties": {}
+  },
+  "_envVariables": {
+    "type": "object",
+    "isFunction": false,
+    "isObject": true,
+    "properties": {
+      "scheme": { "type": "string", "isFunction": false, "isObject": false },
+      "containerId": {
+        "type": "string",
+        "isFunction": false,
+        "isObject": false
+      },
+      "isT7Available": {
+        "type": "boolean",
+        "isFunction": false,
+        "isObject": false
+      },
+      "sdkExtension": {
+        "type": "string",
+        "isFunction": false,
+        "isObject": false
+      },
+      "gameSdkExtension": {
+        "type": "string",
+        "isFunction": false,
+        "isObject": false
+      },
+      "isDebugSdk": {
+        "type": "boolean",
+        "isFunction": false,
+        "isObject": false
+      },
+      "hostName": { "type": "string", "isFunction": false, "isObject": false },
+      "platform": { "type": "string", "isFunction": false, "isObject": false },
+      "abTestSwitch": {
+        "type": "object",
+        "isFunction": false,
+        "isObject": true
+      },
+      "userDataPath": {
+        "type": "string",
+        "isFunction": false,
+        "isObject": false
+      },
+      "preloadId": { "type": "string", "isFunction": false, "isObject": false },
+      "isBaiduSeries": {
+        "type": "boolean",
+        "isFunction": false,
+        "isObject": false
+      },
+      "ttsExtractJSUrl": {
+        "type": "string",
+        "isFunction": false,
+        "isObject": false
+      },
+      "coreJSPath": {
+        "type": "string",
+        "isFunction": false,
+        "isObject": false
+      },
+      "swanNativeVersion": {
+        "type": "string",
+        "isFunction": false,
+        "isObject": false
+      },
+      "enableNativeMap": {
+        "type": "boolean",
+        "isFunction": false,
+        "isObject": false
+      },
+      "isNewTalosRuntime": {
+        "type": "boolean",
+        "isFunction": false,
+        "isObject": false
+      }
+    }
+  },
+  "basePath": {
+    "type": "string",
+    "isFunction": false,
+    "isObject": false,
+    "properties": {}
+  },
+  "swanVersion": {
+    "type": "string",
+    "isFunction": false,
+    "isObject": false,
+    "properties": {}
+  },
+  "Image": {
+    "type": "function",
+    "isFunction": true,
+    "isObject": false,
+    "properties": {}
+  },
+  "_bdbox_js_xxxx": {
+    "type": "function",
+    "isFunction": true,
+    "isObject": false,
+    "properties": {}
+  },
+  "_swanApp": {
+    "type": "object",
+    "isFunction": false,
+    "isObject": true,
+    "properties": {
+      "logger": { "type": "object", "isFunction": false, "isObject": true },
+      "exceptionReporter": {
+        "type": "object",
+        "isFunction": false,
+        "isObject": true
+      },
+      "thirdExceptionReporter": {
+        "type": "object",
+        "isFunction": false,
+        "isObject": true
+      }
+    }
+  },
+  "__DEV__": {
+    "type": "boolean",
+    "isFunction": false,
+    "isObject": false,
+    "properties": {}
+  },
+  "feMasterPreloadStart": {
+    "type": "number",
+    "isFunction": false,
+    "isObject": false,
+    "properties": {}
+  },
+  "PrimitiveLogger": {
+    "type": "function",
+    "isFunction": true,
+    "isObject": false,
+    "properties": {}
+  },
+  "setUploader": {
+    "type": "function",
+    "isFunction": true,
+    "isObject": false,
+    "properties": {}
+  },
+  "specialWebpackJsonp": {
+    "type": "object",
+    "isFunction": false,
+    "isObject": true,
+    "properties": {
+      "0": { "type": "object", "isFunction": false, "isObject": true },
+      "push": { "type": "function", "isFunction": true, "isObject": false }
+    }
+  },
+  "regeneratorRuntime": {
+    "type": "object",
+    "isFunction": false,
+    "isObject": true,
+    "properties": {
+      "wrap": { "type": "function", "isFunction": true, "isObject": false },
+      "isGeneratorFunction": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "mark": { "type": "function", "isFunction": true, "isObject": false },
+      "awrap": { "type": "function", "isFunction": true, "isObject": false },
+      "AsyncIterator": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "async": { "type": "function", "isFunction": true, "isObject": false },
+      "keys": { "type": "function", "isFunction": true, "isObject": false },
+      "values": { "type": "function", "isFunction": true, "isObject": false }
+    }
+  },
+  "jsNative": {
+    "type": "object",
+    "isFunction": false,
+    "isObject": true,
+    "properties": {
+      "options": { "type": "object", "isFunction": false, "isObject": true },
+      "apis": { "type": "object", "isFunction": false, "isObject": true },
+      "apisLen": { "type": "number", "isFunction": false, "isObject": false },
+      "apiIndex": { "type": "object", "isFunction": false, "isObject": true },
+      "config": { "type": "function", "isFunction": true, "isObject": false },
+      "add": { "type": "function", "isFunction": true, "isObject": false },
+      "fromNative": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "invoke": { "type": "function", "isFunction": true, "isObject": false },
+      "map": { "type": "function", "isFunction": true, "isObject": false },
+      "invokeAPI": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "addProcessorCreator": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "setExternalDescriptionProps": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "version": { "type": "string", "isFunction": false, "isObject": false },
+      "createContainer": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      }
+    }
+  },
+  "setImmediate": {
+    "type": "function",
+    "isFunction": true,
+    "isObject": false,
+    "properties": {}
+  },
+  "clearImmediate": {
+    "type": "function",
+    "isFunction": true,
+    "isObject": false,
+    "properties": {}
+  },
+  "__hacked": {
+    "type": "object",
+    "isFunction": false,
+    "isObject": true,
+    "properties": {
+      "global": { "type": "object", "isFunction": false, "isObject": true },
+      "setTimeout": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "setInterval": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "setImmediate": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "Function": { "type": "function", "isFunction": true, "isObject": false }
+    }
+  },
+  "__jsna_1": {
+    "type": "function",
+    "isFunction": true,
+    "isObject": false,
+    "properties": {}
+  },
+  "swan": {
+    "type": "object",
+    "isFunction": false,
+    "isObject": true,
+    "properties": {
+      "getLocation": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "getStorageSync": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "pauseNetDiskTasks": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "openEmbeddedSmartProgram": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "deleteNetDiskTasks": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "authorize": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "ai": { "type": "object", "isFunction": false, "isObject": true },
+      "setReplaceGameCoreConfig": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "preloadPackage": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "getWXCode": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "updateBookshelfReadTime": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "checkPageFavor": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "showModal": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "hideToast": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "setReplaceDynamicLibConfig": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "getPlatformCoupons": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "onNetworkStatusChange": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "shareFile": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "getFaceVerifyImage": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "openTabopt": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "startGyroscope": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "getNetDiskBackupOptions": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "isReduceMotionEnabled": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "setNetDiskUploadOption": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "createRewardedVideoAd": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "getChannelID": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "cloud": { "type": "object", "isFunction": false, "isObject": true },
+      "subscribeService": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "isAllowedAdOpenAppSync": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "getDeviceInfo": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "isBaiduAccountSync": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "hideOpenAppGuide": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "requestPolymerPayment": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "chooseAddress": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "getFavor": { "type": "function", "isFunction": true, "isObject": false },
+      "getPushSettingStateSync": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "saveFile": { "type": "function", "isFunction": true, "isObject": false },
+      "deleteFavor": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "scanCode": { "type": "function", "isFunction": true, "isObject": false },
+      "openAdWebPage": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "loadSubPackage": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "prefetchResources": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "statisticEvent": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "hideNavigationBarLoading": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "setScreenBrightness": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "getNetDiskTaskList": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "launchCloudGame": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "getAvailableAudioSources": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "login": { "type": "function", "isFunction": true, "isObject": false },
+      "recommend": { "type": "object", "isFunction": false, "isObject": true },
+      "getConnectedWifi": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "setKeepScreenOn": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "setTabBarItem": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "register": { "type": "function", "isFunction": true, "isObject": false },
+      "removeSavedFile": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "hideLoading": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "getStoken": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "changeScreenOrientation": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "replaceDependency": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "createWorker": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "getClipboardData": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "getSavedFileInfo": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "setCtsConfig": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "checkFavor": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "stopAccelerometer": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "thirdPartyLogin": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "quickAppHasInstalled": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "recommendSimilarProducts": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "getWXOpenId": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "removeStorageSync": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "openCommunityEditor": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "setSelectedAddressSync": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "map": { "type": "object", "isFunction": false, "isObject": true },
+      "connectWifi": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "startDeviceMotionListening": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "deleteEventOnCalendar": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "switchEmbeddedSmartProgram": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "openSetting": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "requestPayment": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "startNetworkWeakChange": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "unRegister": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "configTextContextMenu": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "setTabBarStyle": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "getScreenBrightness": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "getExtensionJSVersion": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "getFileInfo": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "getPrivateDeviceInfo": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "addCard": { "type": "function", "isFunction": true, "isObject": false },
+      "vibrateShort": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "checkBDUSS": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "quickLogin": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "setDebugConfig": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "getBatteryInfoSync": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "unlockScreen": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "navigateBackSmartProgram": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "clearStorageSync": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "ubcReporter": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "showActionSheet": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "stopCompass": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "getSeid": { "type": "function", "isFunction": true, "isObject": false },
+      "takeCoupons": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "getOpenBDUSS": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "replaceDynamicLib": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "requestWalletPolymerPayment": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "signPasswordFreePayment": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "showTabBar": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "search": { "type": "object", "isFunction": false, "isObject": true },
+      "stopDeviceMotionListening": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "unlockScreenOrientation": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "getSystemRiskInfo": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "getDxmBankCardInfo": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "onMemoryWarning": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "hideCaptureScreenShareDialog": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "getOptimalPriceInfo": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "checkWidgetState": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "getTopStatus": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "chooseImage": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "setExtensionConfig": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "startTouchEventListener": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "getFavorStatus": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "postMessageToWebView": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "addEventOnCalendar": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "getStorage": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "startAccelerometer": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "checkPhoneContactsAuthorization": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "setStorage": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "postGameCenterMessageSync": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "deleteHistory": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "getNetworkType": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "uploadFileToBos": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "postMessage": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "getPhoneNumber": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "removeStorage": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "sendBroadcast": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "calcMD5": { "type": "function", "isFunction": true, "isObject": false },
+      "arrayBufferRequest": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "getPayStatus": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "setNavigationBarColor": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "getDebugConfig": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "request": { "type": "function", "isFunction": true, "isObject": false },
+      "addTop": { "type": "function", "isFunction": true, "isObject": false },
+      "faceVerify": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "getNoticeMessage": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "showHalfScreenWebview": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "setReplaceSwanCoreConfig": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "setInnerAudioOption": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "prefetchAppData": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "showNavigationBarLoading": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "setTopFavor": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "stopWifi": { "type": "function", "isFunction": true, "isObject": false },
+      "setAccountAvatar": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "navigateToBookshelf": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "canvasToTempFilePath": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "makePhoneCall": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "resumeNetDiskTasks": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "canvasPutImageData": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "downloadFile": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "getQQAuthInfo": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "disableUserScreenRecord": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "lingjingRequestAbort": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "showLoading": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "isLoginSync": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "closeFullScreenView": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "getZidInfo": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "recommendProducts": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "confirmAppClose": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "getFollowStatus": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "stopGyroscope": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "stopPullDownRefresh": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "captureLongScreenshot": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "fullClean": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "chooseAlbum": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "insertBookshelf": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "hideKeyboard": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "openShare": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "getAlipayUserId": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "getAbSwitches": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "showToast": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "replaceSwanCore": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "setClipboardData": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "stopNetworkWeakChange": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "addToDesktop": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "hostDownloadManager": {
+        "type": "object",
+        "isFunction": false,
+        "isObject": true
+      },
+      "setTplBdussSync": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "setStorageSync": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "removeTabBarBadge": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "offNetDiskBackupProgressUpdate": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "pageScrollTo": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "getRealNameInfo": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "getWifiList": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "clearStorage": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "exit": { "type": "function", "isFunction": true, "isObject": false },
+      "canvasGetImageData": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "deleteTop": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "setEnableDebug": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "getBatteryInfo": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "getHistory": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "addCustomWidget": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "getNetDiskTaskInfo": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "offNetDiskTaskProgressUpdate": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "getPerformanceLevel": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "replaceGameCore": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "llm": { "type": "object", "isFunction": false, "isObject": true },
+      "getSharedLoginInfo": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "addPhoneContact": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "requestThirdPayment": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "compressImage": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "getUserCoupons": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "getSavedFileList": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "closeSocket": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "getSwanId": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "saveVideoToPhotosAlbum": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "stopLocationUpdate": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "closeCommunityEditor": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "pauseNetDiskBackup": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "setReplaceDependencyConfig": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "callGC": { "type": "function", "isFunction": true, "isObject": false },
+      "hideTabBar": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "openLocation": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "chooseInvoiceTitle": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "getStorageInfoSync": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "requestAliPayment": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "onPayResult": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "setBackgroundColor": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "addPageFavor": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "postGameCenterMessage": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "faceResultVerify": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "resumeNetDiskBackup": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "setMenuEnabled": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "addWidget": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "getSimPhoneToken": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "openUserProfile": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "openDocument": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "navigateToSmartProgram": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "getSetting": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "lockScreenOrientation": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "commonFaceVerify": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "getBDExptInfoSync": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "stopTouchEventListener": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "getWalletRiskControlData": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "startLocationUpdate": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "uploadFile": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "vibrateLong": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "updateCustomWidgetConfig": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "setMenuOpacity": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "isScreenLockedSync": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "showTabBarRedDot": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "getTopList": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "recognizeImage": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "getSystemInfoSync": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "getLoginCode": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "setWebDegradeDebugHost": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "getFileSystemManager": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "getPhoneContacts": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "chooseLocation": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "setBackgroundTextStyle": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "debugMode": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "openReplyEditor": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "checkSession": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "getImageInfo": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "isAppInstalled": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "getStorageInfo": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "downloadExtension": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "addFavor": { "type": "function", "isFunction": true, "isObject": false },
+      "startCompass": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "pullMessage": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "hideTabBarRedDot": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "guidePushSetting": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "sendSocketMessage": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "requestSubscribeFormId": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "saveImageToPhotosAlbum": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "showFavoriteGuide": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "deleteBookshelf": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "requestWeChatPayment": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "getSystemStatus": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "connectSocket": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "showOpenAppGuide": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "showModalPage": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "queryBookshelf": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "downloadPackages": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "closeReplyEditor": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "statisticFlowJar": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "openBdboxWebview": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "getBDUSS": { "type": "function", "isFunction": true, "isObject": false },
+      "getCommonSysInfo": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "isScreenReaderEnabled": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "enableUserScreenRecord": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "getUserInfo": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "startWifi": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "activityRequest": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "hideModalPage": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "ubcAndCeresStatisticEvent": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "getUnionBDUSS": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "requestAutoSign": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "startPullDownRefresh": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "getAdDeviceInfo": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "getMenuButtonBoundingClientRect": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "setTabBarBadge": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "deletePageFavor": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "follow": { "type": "function", "isFunction": true, "isObject": false },
+      "multiAuthorize": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "setNavigationBarTitle": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "queryQuickLoginInfo": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "bulkDeleteHistory": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "chooseVideo": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "sharedLogin": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "onNetDiskBackupProgressUpdate": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "getSystemInfo": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "previewImage": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "onNetDiskTaskProgressUpdate": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "getExtConfigSync": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "getExtConfig": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "setMetaDescription": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "setMetaKeywords": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "setDocumentTitle": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "setPageInfo": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "onPageFavorChange": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "onUserCaptureScreen": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "offUserCaptureScreen": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "onGetWifiList": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "onWifiConnected": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "offGetWifiList": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "offWifiConnected": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "createAppInstallManager": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "createInnerAudioContext": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "getBackgroundAudioManager": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "createCameraContext": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "createCanvasContext": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "getEnvInfoSync": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "getHostDownloadManager": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "navigateToMiniProgram": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "navigateBackMiniProgram": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "playSystemTTS": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "onSocketOpen": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "onSocketError": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "onSocketClose": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "onSocketMessage": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "offNetworkStatusChange": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "createARCameraContext": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "createLivePlayerContext": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "createMapContext": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "createFullScreenView": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "createActivityContext": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "getStreamTTSManager": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "getRecorderManager": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "onKeyboardHeightChange": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "offKeyboardHeightChange": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "getUpdateManager": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "getTTSManager": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "createVideoContext": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "downloadPackage": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "onAccelerometerChange": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "offAccelerometerChange": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "onCompassChange": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "offCompassChange": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "onDeviceMotionChange": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "offDeviceMotionChange": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "onLocationChange": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "offLocationChange": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "openAppByURL": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "createRtcRoomContext": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "offMemoryWarning": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "onGyroscopeChange": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "offGyroscopeChange": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "onNetworkWeakChange": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "offNetworkWeakChange": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "onTextSizeAdjust": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "offTextSizeAdjust": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "onMenuTapped": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "offMenuTapped": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "onReceiveDataChannelMessage": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "offReceiveDataChannelMessage": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "createWebViewContext": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "onScreenReaderChange": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "offScreenReaderChange": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "onReduceMotionChange": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "offReduceMotionChange": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "onTouchEvent": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "offTouchEvent": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "loadFontFace": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "getPerformance": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "createRichTextInputContext": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "onScreenRecordingStateChanged": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "offScreenRecordingStateChanged": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "modules": { "type": "object", "isFunction": false, "isObject": true },
+      "moduleContainer": {
+        "type": "object",
+        "isFunction": false,
+        "isObject": true
+      },
+      "onAppShow": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "onAppHide": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "onError": { "type": "function", "isFunction": true, "isObject": false },
+      "onPageNotFound": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "onDisplayChange": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "onUnhandledRejection": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "offUnhandledRejection": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "offAppShow": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "offAppHide": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "offError": { "type": "function", "isFunction": true, "isObject": false },
+      "offPageNotFound": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "offDisplayChange": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "navigateTo": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "navigateBack": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "redirectTo": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "reLaunch": { "type": "function", "isFunction": true, "isObject": false },
+      "switchTab": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "getURLQuery": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "setURLQuery": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "env": { "type": "object", "isFunction": false, "isObject": true },
+      "createAnimation": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "createSelectorQuery": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "createIntersectionObserver": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "createAnimationVideo": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "reportAnalytics": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "getRealtimeLogManager": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "setBizInfo": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "getMtjManager": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "getAngeliaManager": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "nextTick": { "type": "function", "isFunction": true, "isObject": false },
+      "sendFrameWorkLog": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "after": { "type": "function", "isFunction": true, "isObject": false },
+      "canIUse": { "type": "function", "isFunction": true, "isObject": false },
+      "webpackJsonp": {
+        "type": "object",
+        "isFunction": false,
+        "isObject": true
+      },
+      "_name": { "type": "string", "isFunction": false, "isObject": false },
+      "_isPlugin": {
+        "type": "boolean",
+        "isFunction": false,
+        "isObject": false
+      },
+      "devPlatform": {
+        "type": "object",
+        "isFunction": false,
+        "isObject": true
+      },
+      "__sgm__": { "type": "object", "isFunction": false, "isObject": true },
+      "__sgm__9HwAEg@GUR8LQA9NnqNW36x": {
+        "type": "object",
+        "isFunction": false,
+        "isObject": true
+      },
+      "__sgm__originRequest": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "__sgm__sceneId": {
+        "type": "string",
+        "isFunction": false,
+        "isObject": false
+      },
+      "__sgm__webviewId": {
+        "type": "string",
+        "isFunction": false,
+        "isObject": false
+      },
+      "scroll": { "type": "object", "isFunction": false, "isObject": true }
+    }
+  },
+  "swaninterface": {
+    "type": "object",
+    "isFunction": false,
+    "isObject": true,
+    "properties": {
+      "appInfoManager": {
+        "type": "object",
+        "isFunction": false,
+        "isObject": true
+      },
+      "boxjs": { "type": "object", "isFunction": false, "isObject": true },
+      "swan": { "type": "object", "isFunction": false, "isObject": true },
+      "modules": { "type": "object", "isFunction": false, "isObject": true },
+      "moduleContainer": {
+        "type": "object",
+        "isFunction": false,
+        "isObject": true
+      }
+    }
+  },
+  "swanEvents": {
+    "type": "object",
+    "isFunction": false,
+    "isObject": true,
+    "properties": {
+      "handlerQueueSet": {
+        "type": "object",
+        "isFunction": false,
+        "isObject": true
+      },
+      "messageQueueSet": {
+        "type": "object",
+        "isFunction": false,
+        "isObject": true
+      },
+      "handlerBuffer": {
+        "type": "object",
+        "isFunction": false,
+        "isObject": true
+      },
+      "name": { "type": "string", "isFunction": false, "isObject": false }
+    }
+  },
+  "def": {
+    "type": "function",
+    "isFunction": true,
+    "isObject": false,
+    "properties": {}
+  },
+  "define": {
+    "type": "function",
+    "isFunction": true,
+    "isObject": false,
+    "properties": {}
+  },
+  "require": {
+    "type": "function",
+    "isFunction": true,
+    "isObject": false,
+    "properties": {}
+  },
+  "defineDynamicLib": {
+    "type": "function",
+    "isFunction": true,
+    "isObject": false,
+    "properties": {}
+  },
+  "requireDynamicLib": {
+    "type": "function",
+    "isFunction": true,
+    "isObject": false,
+    "properties": {}
+  },
+  "definePlugin": {
+    "type": "function",
+    "isFunction": true,
+    "isObject": false,
+    "properties": {}
+  },
+  "requirePlugin": {
+    "type": "function",
+    "isFunction": true,
+    "isObject": false,
+    "properties": {}
+  },
+  "_openSourceDebugInfo": {
+    "type": "object",
+    "isFunction": false,
+    "isObject": true,
+    "properties": {
+      "host": { "type": "undefined", "isFunction": false, "isObject": false },
+      "port": { "type": "undefined", "isFunction": false, "isObject": false },
+      "udid": { "type": "undefined", "isFunction": false, "isObject": false }
+    }
+  },
+  "feMasterPreloadEnd": {
+    "type": "number",
+    "isFunction": false,
+    "isObject": false,
+    "properties": {}
+  },
+  "_logicKeyStageLog": {
+    "type": "function",
+    "isFunction": true,
+    "isObject": false,
+    "properties": {}
+  },
+  "appConfig": {
+    "type": "string",
+    "isFunction": false,
+    "isObject": false,
+    "properties": {}
+  },
+  "parsedAppConfig": {
+    "type": "object",
+    "isFunction": false,
+    "isObject": true,
+    "properties": {
+      "pages": { "type": "object", "isFunction": false, "isObject": true },
+      "requiredPrivateInfos": {
+        "type": "object",
+        "isFunction": false,
+        "isObject": true
+      },
+      "functionalPages": {
+        "type": "boolean",
+        "isFunction": false,
+        "isObject": false
+      },
+      "permission": { "type": "object", "isFunction": false, "isObject": true },
+      "window": { "type": "object", "isFunction": false, "isObject": true },
+      "networkTimeout": {
+        "type": "object",
+        "isFunction": false,
+        "isObject": true
+      },
+      "preloadRule": {
+        "type": "object",
+        "isFunction": false,
+        "isObject": true
+      },
+      "subPackages": {
+        "type": "object",
+        "isFunction": false,
+        "isObject": true
+      },
+      "tabBar": { "type": "object", "isFunction": false, "isObject": true },
+      "sitemapLocation": {
+        "type": "string",
+        "isFunction": false,
+        "isObject": false
+      },
+      "_complierSetting": {
+        "type": "object",
+        "isFunction": false,
+        "isObject": true
+      },
+      "isNewSplitAppJs": {
+        "type": "boolean",
+        "isFunction": false,
+        "isObject": false
+      },
+      "_sub_swan": { "type": "object", "isFunction": false, "isObject": true },
+      "setting": { "type": "object", "isFunction": false, "isObject": true }
+    }
+  },
+  "onunhandledrejection": {
+    "type": "function",
+    "isFunction": true,
+    "isObject": false,
+    "properties": {}
+  },
+  "App": {
+    "type": "function",
+    "isFunction": true,
+    "isObject": false,
+    "properties": {}
+  },
+  "getApp": {
+    "type": "function",
+    "isFunction": true,
+    "isObject": false,
+    "properties": {}
+  },
+  "registerOnPrefetch": {
+    "type": "function",
+    "isFunction": true,
+    "isObject": false,
+    "properties": {}
+  },
+  "Page": {
+    "type": "function",
+    "isFunction": true,
+    "isObject": false,
+    "properties": {}
+  },
+  "Component": {
+    "type": "function",
+    "isFunction": true,
+    "isObject": false,
+    "properties": {}
+  },
+  "Behavior": {
+    "type": "function",
+    "isFunction": true,
+    "isObject": false,
+    "properties": {}
+  },
+  "masterManager": {
+    "type": "object",
+    "isFunction": false,
+    "isObject": true,
+    "properties": {
+      "getPathFromFront": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "getCurrentPage": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "getCurrentPageInfo": {
+        "type": "function",
+        "isFunction": true,
+        "isObject": false
+      },
+      "navigator": { "type": "object", "isFunction": false, "isObject": true },
+      "router": { "type": "object", "isFunction": false, "isObject": true },
+      "communicator": {
+        "type": "object",
+        "isFunction": false,
+        "isObject": true
+      },
+      "swanEventsCommunicator": {
+        "type": "object",
+        "isFunction": false,
+        "isObject": true
+      },
+      "appLifeCycleEventEmitter": {
+        "type": "object",
+        "isFunction": false,
+        "isObject": true
+      },
+      "pageLifeCycleEventEmitter": {
+        "type": "object",
+        "isFunction": false,
+        "isObject": true
+      }
+    }
+  },
+  "getCurrentPages": {
+    "type": "function",
+    "isFunction": true,
+    "isObject": false,
+    "properties": {}
+  },
+  "__swanRoute": {
+    "type": "undefined",
+    "isFunction": false,
+    "isObject": false,
+    "properties": {}
+  },
+  "usingComponents": {
+    "type": "object",
+    "isFunction": false,
+    "isObject": true,
+    "properties": {
+      "0": { "type": "string", "isFunction": false, "isObject": false }
+    }
+  },
+  "usingPluginComponents": {
+    "type": "object",
+    "isFunction": false,
+    "isObject": true,
+    "properties": {}
+  },
+  "__alias": {
+    "type": "object",
+    "isFunction": false,
+    "isObject": true,
+    "properties": {}
+  },
+  "_bdbox_pjs_126": {
+    "type": "function",
+    "isFunction": true,
+    "isObject": false,
+    "properties": {}
+  },
+  "showPerformancePanel": {
+    "type": "string",
+    "isFunction": false,
+    "isObject": false,
+    "properties": {}
+  },
+  "_bdbox_pjs_137": {
+    "type": "function",
+    "isFunction": true,
+    "isObject": false,
+    "properties": {}
+  },
+  "_bdbox_pjs_140": {
+    "type": "function",
+    "isFunction": true,
+    "isObject": false,
+    "properties": {}
+  },
+  "_bdbox_pjs_169": {
+    "type": "function",
+    "isFunction": true,
+    "isObject": false,
+    "properties": {}
+  },
+  "_bdbox_pjs_194": {
+    "type": "function",
+    "isFunction": true,
+    "isObject": false,
+    "properties": {}
+  },
+  "_bdbox_pjs_226": {
+    "type": "function",
+    "isFunction": true,
+    "isObject": false,
+    "properties": {}
+  },
+  "__jsna_183": {
+    "type": "function",
+    "isFunction": true,
+    "isObject": false,
+    "properties": {}
+  },
+  "_bdbox_pjs_247": {
+    "type": "function",
+    "isFunction": true,
+    "isObject": false,
+    "properties": {}
+  },
+  "_bdbox_pjs_314": {
+    "type": "function",
+    "isFunction": true,
+    "isObject": false,
+    "properties": {}
+  }
+}
