@@ -42,11 +42,13 @@ The `app` directory contains scripts focused on application-specific operations,
 - **hook_all_managers.js**: Hooks into all manager-level APIs, capturing method invocations and interactions with system managers.
 - **manager_test.js**: A testing script for hooking manager methods, ensuring the hooks work as expected.
 
+## onTransact
+
+- **stub_on_transact.js**: Hooks the `onTransact` method, allowing you to intercept binder transactions. This is useful for observing IPC (inter-process communication) between apps or services.
+
 ## Contributing
 
 Pull requests are welcome! If you have improvements or additional hooks to contribute, please make sure your code is well-documented and follows the repository structure. Feel free to open an issue first to discuss any major changes or ideas.
 
 
-## onTransact
 
-- **stub_on_transact.js**: Hooks the `onTransact` method, allowing you to intercept binder transactions. This is useful for observing IPC (inter-process communication) between apps or services.
