@@ -1,24 +1,5 @@
 Java.perform(function () {
-  // var Context = Java.use("android.content.Context");
 
-  // Context.getSystemService.overload('java.lang.String').implementation = function (serviceName) {
-  //     console.log("getSystemService called with String: " + serviceName);
-  //     return this.getSystemService.overload('java.lang.String').call(this, serviceName);
-  // };
-
-  // Context.getSystemService.overload('java.lang.Class').implementation = function (serviceClass) {
-  //     console.log("getSystemService called with Class: " + serviceClass);
-  //     if(serviceClass.getName().includes("LocationManager")) {
-  //         hookAllMethods(serviceClass.getName());
-  //     }
-
-  //     return this.getSystemService.overload('java.lang.Class').call(this, serviceClass);
-
-  // };
-
-  // hookAllMethods("android.location.LocationManager");
-  // hookAllMethods("android.location.LocationProvider");
-  // hookAllMethods("android.location.Location");
   
   hookAllMethods("com.android.server.location.LocationManagerService");
   hookAllMethods("com.android.server.vibrator.VibratorManagerService");
